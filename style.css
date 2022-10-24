@@ -1,0 +1,24 @@
+.container {
+    border-radius: 20px;
+    padding: 20px;
+    margin: auto;
+    margin-top: 2%;
+    background-image: url(cool-background\ \(2\).png);
+}
+.btn-primary {
+    background-color: #FFF;
+    color: black;
+    border-radius: 25px;
+}
+
+.btn-primary:focus,
+.btn-primary:hover    {
+    background-image: linear-gradient(to right, rgb(189, 253, 71) , rgb(246, 178, 77));
+    color: #FFF;
+    
+}
+
+.sign::before {
+    content: "$";
+    color: black;
+}
